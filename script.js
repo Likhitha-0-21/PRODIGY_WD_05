@@ -1,5 +1,3 @@
-
-// Replace 'YOUR_WEATHER_API_KEY' and 'YOUR_UNSPLASH_API_KEY' with actual keys
 const weatherApiKey = 'bd5e378503939ddaee76f12ad7a97608';
 const unsplashApiKey = 'ngX_jSCant45LQxTVRI6IQ0Y0G9OUwOHJ887EuTBubE';
 
@@ -77,3 +75,4 @@ function fetchBackgroundImage(data) {
     })
     .catch(error => console.log('Error fetching background image:', error));
 }
+
